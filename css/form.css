@@ -15,11 +15,21 @@ select.fordform {
     color: #807d7d;
 }
 
+textarea.fordform {
+    height: 90px;
+    resize: none;
+    font-family: inherit;
+}
+
 input:focus-visible {
     outline: none;
 }
 
 select:focus-visible {
+    outline: none;
+}
+
+textarea:focus-visible {
     outline: none;
 }
 
@@ -41,13 +51,24 @@ h2 {
     font-weight: 800;
 }
 
-
 button {
     width: 200px;
     height: 40px;
     margin-right: 8px;
     float: right;
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #1b357e; 
+    transform: scale(1.06);
+}
+
 
 .titulo {
     margin-left: 8px;
